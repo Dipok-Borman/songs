@@ -31,7 +31,6 @@ const displayMusic = musics => {
         songDiv.innerHTML = song;
         musicContainer.appendChild(songDiv);
     });
-    console.log(musics);
 }
 
 const getLyric = async (artist, title) => {
